@@ -1,0 +1,23 @@
+*lpaste.txt*    LPaste                                         *lpaste*
+
+
+=============================================================================
+COMMANDS                                                    *lpaste-commands*
+
+                                                                    *:HPaste*
+:{range}HPaste          Paste the contents of the buffer or range
+                        to hpaste.org.  Requires a Vim compiled with a
+                        |Python| interface.
+
+                        See also |g:hpaste_author|.
+
+
+=============================================================================
+OPTIONS                                                      *lpaste-options*
+
+                                                            *g:hpaste_author*
+Author name to use when pasting to hpaste.org, instead of prompting for it
+every time: >
+  let g:hpaste_author = 'Your Name'
+
+ vim:tw=78:et:ft=help:norl:
